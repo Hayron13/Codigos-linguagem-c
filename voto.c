@@ -5,11 +5,10 @@ int main(){
     printf("insira sua idade:");
     scanf("%d", &years);
     if(years>=16){
-       printf("Pode votar\n",p);
+       printf("Pode votar\n",years);
        }
     else{
-         p=62.1*h-44.7;
-         printf("Nao pode votar\n",p);
+         printf("Nao pode votar\n",years);
          }
     system("pause");
     return 0;
